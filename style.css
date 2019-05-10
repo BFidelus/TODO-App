@@ -1,0 +1,46 @@
+body{
+    background-image: url(tlo.jpg);
+}
+
+#box{
+    width: 50%;
+    margin-left: 25%;
+}
+#name{
+    border-radius: 8px;
+    width: 100%;
+    border: solid 1px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.task{
+    border-radius: 8px;
+    border: solid 1px;
+    width: 100%;
+    float: left;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+}
+#button{
+    margin-top: 10%;
+    width: 100%;
+    user-select: none;
+}
+.przycisk{
+    border-radius: 8px;
+    border: solid 3px;
+    float: left;
+    font-size: 20px;
+    text-align:center;
+}
+.przycisk:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#taskList{
+    height: 100%;
+    width: 100%;
+}
